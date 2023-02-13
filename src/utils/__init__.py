@@ -1,6 +1,6 @@
 import requests
 
-from urls import *
+from .urls import *
 
 from ..types import GraphqlFetchResult
 

@@ -1,7 +1,7 @@
 from typing import Optional, List
-from queries import isApiKeyValid, getAllFood, searchFoodByName, getFoodByCategory, getFoodById
+from .queries import isApiKeyValid, getAllFood, searchFoodByName, getFoodByCategory, getFoodById
 
-from utils import fetchGraphQl
+from .utils import fetchGraphQl
 
 from .types import FoodApiError, Food, FoodCategories
 
