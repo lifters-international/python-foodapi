@@ -2,12 +2,12 @@
 Contains all the necessary type information for wrapper
 """
 
-from .Food import NutritionFacts, NutritionFactsJson, NutritionUnits, NutritionFactsInput, Food
+from .FoodType import NutritionFacts, NutritionFactsJson, NutritionUnits, NutritionFactsInput, Food
 
 from .FoodApiError import FoodApiEror
 
-from .FoodCategories import FoodCategories
+from .FoodCategoriesType import FoodCategories
 
-from .GraphqlError import GraphqlError
+from .GraphqlErrorType import GraphqlError
 
-from .GraphqlFetchResult import GraphqlFetchResult
+from .GraphqlFetchResultType import GraphqlFetchResult
